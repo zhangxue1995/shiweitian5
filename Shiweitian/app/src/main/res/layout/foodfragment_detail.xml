@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dreamers.shiweitian.Home_page.MainActivity"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.dreamers.shiweitian.Home_page.MyImageView_1
+            android:id="@+id/img"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/buhegeshipin"/>
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:textSize="15sp"
+            android:text="大渔铁板烧（1912）店"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:layout_below="@+id/name1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#aab9b8b8"
+            android:text="费列罗贸易（上海）有限公司"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/layout1"
+        android:layout_height="10dp"
+        android:background="#aae6e3e3" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#aab9b8b8"
+        android:text="食品名称："/>
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_toRightOf="@+id/t1"
+        android:layout_marginTop="10dp"
+        android:textColor="#aab9b8b8"
+        android:text="健达牛奶巧克力"/>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/t1"
+        android:layout_height="1dp"
+        android:background="#aae6e3e3" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#aab9b8b8"
+        android:text="产        地："/>
+    <TextView
+        android:id="@+id/food_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:layout_toRightOf="@+id/t1"
+        android:layout_marginTop="10dp"
+        android:textColor="#aab9b8b8"
+        android:text="德国（原产国）"/>
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/t2"
+        android:layout_height="1dp"
+        android:background="#aae6e3e3" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#aab9b8b8"
+        android:text="执行标准："/>
+    <TextView
+        android:id="@+id/standard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line3"
+        android:layout_toRightOf="@+id/t1"
+        android:layout_marginTop="10dp"
+        android:textColor="#aab9b8b8"
+        android:text="GB/T 19343"/>
+
+            <View
+                android:id="@+id/line4"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/t3"
+                android:layout_height="1dp"
+                android:background="#aae6e3e3" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line4"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#aab9b8b8"
+                android:text="许可证号："/>
+            <TextView
+                android:id="@+id/card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line4"
+                android:layout_toRightOf="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:textColor="#aab9b8b8"
+                android:text="QS1132 1123 4422"/>
+
+            <View
+                android:id="@+id/line5"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/t4"
+                android:layout_height="1dp"
+                android:background="#aae6e3e3" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#aab9b8b8"
+                android:text="检测机构："/>
+            <TextView
+                android:id="@+id/department"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line5"
+                android:layout_toRightOf="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:textColor="#aab9b8b8"
+                android:text="上海市产品质量监督检察院"/>
+
+            <View
+                android:id="@+id/line6"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/t5"
+                android:layout_height="1dp"
+                android:background="#aae6e3e3" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line6"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#aab9b8b8"
+                android:text="检测结果："/>
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line6"
+                android:layout_toRightOf="@+id/t1"
+                android:layout_marginTop="10dp"
+                android:textColor="#aab9b8b8"
+                android:text="合格"/>
+
+            <View
+                android:id="@+id/line7"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/t6"
+                android:layout_height="10dp"
+                android:background="#aae6e3e3" />
+
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line7"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="健达牛奶巧克力"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line7"
+                android:layout_toRightOf="@+id/name3"
+                android:layout_marginTop="10dp"
+                android:text="营养成分表（每100g）"/>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

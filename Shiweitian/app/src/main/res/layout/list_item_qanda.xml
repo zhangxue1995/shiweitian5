@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/image"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:text="文字1"/>
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:background="@drawable/textview_style"
+            android:layout_marginLeft="17dp"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="10dp"
+            android:textSize="8sp"
+            android:textColor="#AAFFFFFF"
+            android:textStyle="bold"
+            android:text="112"/>
+
+        <TextView
+            android:id="@+id/title3"
+            android:layout_below="@id/image"
+            android:layout_toRightOf="@+id/image"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="文字3"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

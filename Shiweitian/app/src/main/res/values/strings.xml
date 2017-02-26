@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">食为天</string>
+
+    <string name="order">查询食品</string>
+    <string name="evaluation">查询商家</string>
+
+    <string name="recommend">今日推荐</string>
+    <string name="foodknowledge">食品知识</string>
+    <string name="healthcolumn">健康专栏</string>
+    <string name="foodmonitoringnews">食监新闻</string>
+
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+    <string name="text_back">返回</string>
+    <string name="text_forward">提交</string>
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dreamers.shiweitian">
+
+    <application
+        android:name=".User"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Startup_page.Startup_page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Home_page.MainActivity"></activity>
+        <activity android:name=".News_page.News_page"></activity>
+        <activity android:name=".News_page.News_detail"></activity>
+        <activity android:name=".News_page.Healthcolumn_more"></activity>
+        <activity android:name=".News_page.Foodmonitoringnews"></activity>
+        <activity android:name=".Report_page.Report_page"></activity>
+        <activity android:name=".QandA_page.QandA_page" android:windowSoftInputMode="adjustPan"></activity>
+        <activity android:name=".QandA_page.QandA_detail"></activity>
+        <activity android:name=".QandA_page.QandA"></activity>
+        <activity android:name=".Search_page.Search_page"></activity>
+        <activity android:name=".Search_page.Searchfood"></activity>
+
+        <activity android:name=".Report_page.Report_product"></activity>
+        <activity android:name=".Report_page.Report_merchant"></activity>
+        <activity android:name=".Report_page.Report_merchant_detail" ></activity>
+        <activity android:name=".Report_page.Feedback"></activity>
+        <activity android:name=".Report_page.Feedback_detail"></activity>
+        <activity android:name=".Personal_information"></activity>
+        <activity android:name=".Login_page"></activity>
+        <activity android:name=".Register_page"></activity>
+        <activity android:name=".Search_page.ShopFragment_detail"></activity>
+        <activity android:name=".Search_page.FoodFragment_detail"></activity>
+        <activity
+            android:name=".zxing.QR_report"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 操作sd卡的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 拨打电话的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+</manifest>

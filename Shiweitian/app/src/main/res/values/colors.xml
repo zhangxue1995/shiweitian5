@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4caf50</color>
+    <color name="colorPrimaryDark">#4caf50</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="blue">#4caf50</color>
+    <color name="black">#000000</color>
+    <color name="white">#dddada</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+
+
+    <!-- button效果-->
+    <drawable name="button_backward_pressed">#FF3030</drawable>
+    <drawable name="button_backward_normal">#0000</drawable>
+
+
+    <color name="white1">#fafafa</color>
+    <color name="transparent_white">#e1dfdf</color>
+
+
+
+
+</resources>

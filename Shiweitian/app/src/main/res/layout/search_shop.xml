@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dreamers.shiweitian.Search_page.ShopFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="附近商家"/>
+        <View
+            android:id="@+id/line2"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/t1"
+            android:layout_height="1dp"
+            android:background="#aae6e3e3" />
+
+        <!--附近商家List-->
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line2"/>
+    </RelativeLayout>
+
+</RelativeLayout>
